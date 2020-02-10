@@ -122,7 +122,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="MRd-c3-hFj"/>
                     <connections>
-                        <outlet property="recipeDetail" destination="dyd-cE-8qm" id="t2h-6M-UEY"/>
+                        <outlet property="recipeInstructions" destination="dyd-cE-8qm" id="t2h-6M-UEY"/>
                         <outlet property="recipeName" destination="Q5j-rK-1gD" id="HLY-Fk-f1s"/>
                     </connections>
                 </viewController>
