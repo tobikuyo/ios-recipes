@@ -16,6 +16,7 @@ class MainViewController: UIViewController {
     
     // MARK: - Properties
     
+    let recipesController = RecipeController()
     let networkClient = RecipesNetworkClient()
     var allRecipes: [Recipe] = [] {
         didSet {
@@ -52,6 +53,8 @@ class MainViewController: UIViewController {
                 }
             }
         }
+        
+        recipesController.saveToPersistentStore()
     }
     
     func filterRecipes() {
