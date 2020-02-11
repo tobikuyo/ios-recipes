@@ -1,5 +1,5 @@
 //
-//  RecipeController.swift
+//  RecipesController.swift
 //  Recipes
 //
 //  Created by Tobi Kuyoro on 10/02/2020.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class RecipeController {
+class RecipesController {
     var recipes: [Recipe] = []
     
     var recipesURL: URL? {

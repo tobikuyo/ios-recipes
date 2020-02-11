@@ -10,7 +10,7 @@
 		2CE2BA9823F1FECD00ED3F3C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2BA9723F1FECD00ED3F3C /* MainViewController.swift */; };
 		2CE2BA9A23F1FFCA00ED3F3C /* RecipesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2BA9923F1FFCA00ED3F3C /* RecipesTableViewController.swift */; };
 		2CE2BA9C23F2010800ED3F3C /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2BA9B23F2010800ED3F3C /* RecipeDetailViewController.swift */; };
-		2CE2BAA023F20F8C00ED3F3C /* RecipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2BA9F23F20F8C00ED3F3C /* RecipeController.swift */; };
+		2CE2BAA023F20F8C00ED3F3C /* RecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2BA9F23F20F8C00ED3F3C /* RecipesController.swift */; };
 		9D59AF432117E647002FB7CD /* RecipesNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59AF422117E647002FB7CD /* RecipesNetworkClient.swift */; };
 		9D59B52C2117F533002FB7CD /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B52B2117F533002FB7CD /* Recipe.swift */; };
 		9DA0F07D2117E3F800A99E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA0F07C2117E3F800A99E97 /* AppDelegate.swift */; };
@@ -23,7 +23,7 @@
 		2CE2BA9723F1FECD00ED3F3C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2CE2BA9923F1FFCA00ED3F3C /* RecipesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewController.swift; sourceTree = "<group>"; };
 		2CE2BA9B23F2010800ED3F3C /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
-		2CE2BA9F23F20F8C00ED3F3C /* RecipeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeController.swift; sourceTree = "<group>"; };
+		2CE2BA9F23F20F8C00ED3F3C /* RecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesController.swift; sourceTree = "<group>"; };
 		9D59AF422117E647002FB7CD /* RecipesNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesNetworkClient.swift; sourceTree = "<group>"; };
 		9D59B52B2117F533002FB7CD /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9DA0F0792117E3F800A99E97 /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +59,7 @@
 				2CE2BA9723F1FECD00ED3F3C /* MainViewController.swift */,
 				2CE2BA9923F1FFCA00ED3F3C /* RecipesTableViewController.swift */,
 				2CE2BA9B23F2010800ED3F3C /* RecipeDetailViewController.swift */,
-				2CE2BA9F23F20F8C00ED3F3C /* RecipeController.swift */,
+				2CE2BA9F23F20F8C00ED3F3C /* RecipesController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			files = (
 				9D59AF432117E647002FB7CD /* RecipesNetworkClient.swift in Sources */,
 				9DA0F07D2117E3F800A99E97 /* AppDelegate.swift in Sources */,
-				2CE2BAA023F20F8C00ED3F3C /* RecipeController.swift in Sources */,
+				2CE2BAA023F20F8C00ED3F3C /* RecipesController.swift in Sources */,
 				9D59B52C2117F533002FB7CD /* Recipe.swift in Sources */,
 				2CE2BA9823F1FECD00ED3F3C /* MainViewController.swift in Sources */,
 				2CE2BA9C23F2010800ED3F3C /* RecipeDetailViewController.swift in Sources */,
